@@ -1,0 +1,41 @@
+.Navbar{
+    background-color: rgb(113, 30, 30);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    cursor: pointer;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menubtn{
+    background-color: aqua;
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    ul{
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(61, 92, 0, 0.81);
+        align-items: center;
+        display: flex;
+        position: fixed;
+    }
+
+
+
+}
